@@ -5,7 +5,7 @@ This project demonstrates the practical application of machine learning to sport
 
 ---
 
-## 📍 Overview
+##  Overview
 
 - **Domain:** Sports Analytics (NBA)
 - **Objective:** Predict the winner of NBA games using historical performance data
@@ -14,7 +14,7 @@ This project demonstrates the practical application of machine learning to sport
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** [Basketball Reference](https://www.basketball-reference.com/)
 - **Size:** 17,772 games | 151 features
@@ -25,18 +25,18 @@ This project demonstrates the practical application of machine learning to sport
 
 ---
 
-## 📝 Methodology
+##  Methodology
 
-### 1. 🔧 Data Preprocessing
+### 1. Data Preprocessing
 - Cleaned raw HTML stats with BeautifulSoup
 - Normalized and standardized features using `MinMaxScaler`
 - Engineered rolling features and match-specific metrics
 
-### 2. 📊 Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 - Identified trends in scoring, outliers, and top team performance
 - Visualized win distribution and offensive dominance across teams
 
-### 3. 🧠 Model Development
+### 3. Model Development
 - Algorithms used:
   - Ridge Classifier
   - Logistic Regression
@@ -45,7 +45,7 @@ This project demonstrates the practical application of machine learning to sport
 - Applied Sequential Feature Selection to extract 30 key predictors
 - Used `TimeSeriesSplit` for validation to avoid data leakage
 
-### 4. 🔄 Optimization
+### 4. Optimization
 - Hyperparameter tuning via `GridSearchCV`
 - Evaluation using **accuracy**, **precision**, **recall**, and **F1-score**
 
@@ -58,7 +58,7 @@ This project demonstrates the practical application of machine learning to sport
 | Ridge Classifier       | 78.5%    |
 | Linear SVC             | 63.2%    |
 | Logistic Regression    | 79.0%    |
-| ✨ Random Forest       | ✨ **90.0%** |
+| Random Forest          |**90.0%** |
 
 - **Random Forest** excelled at capturing complex patterns and interactions.
 - Feature selection significantly boosted model interpretability and performance.
